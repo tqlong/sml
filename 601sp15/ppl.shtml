@@ -1,0 +1,240 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+ 
+  <link rel="SHORTCUT ICON" href="ml-logo.gif">
+  <link rel="stylesheet" href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/style.css">
+
+  <title>
+
+Machine Learning 10-601: People
+  </title>
+</head>
+ 
+<body link="#993333">
+
+<table align="center" border="0" cellpadding="8" width="70%">  
+  <tbody>  
+    <tr>
+ 
+      <td width="80%">  
+      <h1 align="left"> <br>
+      <b> Machine Learning</b> </h1>
+ 
+      <h2> 10-601, Spring 2015 </h2>
+      <h2> Carnegie Mellon University </h2>
+ 
+      <h2><a href="http://www.cs.cmu.edu/~tom">Tom Mitchell</a> and <a href="http://www.cs.cmu.edu/~ninamf/"> Maria-Florina Balcan </a> <br>
+ </h2>
+  
+      </td>
+ 
+      <td align="right" width="20%"><img src="ml-logo.gif" height="150" width="150">
+      </td>
+ 
+    </tr>
+  
+    <tr>
+ 
+      <td colspan="2" align="justify" valign="top"> <br>
+ 
+      <br><table width="100%">
+        <tbody>
+          <tr>
+            <td colspan="2" bgcolor="#993333"><img src="transparent.gif" border="0" height="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="justify">
+            <table width="100%">
+              <tbody>
+                <tr>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="index.html"> <b>Home</b> </a> 
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="ppl.shtml"> <b>People </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="lectures.shtml"> <b> Lectures </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="recitations.shtml"> <b>Recitations </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="homeworks.shtml"> <b>Homeworks </b></a>
+                  </p>
+                  </td>
+				  <td width="12%">
+                  <p class="headlink">
+                  <a href="projects.html"> <b>Project</b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="prev.shtml"> <b> Previous material </b></a>
+                  </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" bgcolor="#993333"><img src="http://www.cs.cmu.edu/~ninamf/courses/601sp15/Machine&#32;Learning&#32;10-601&#32;Fall&#32;2012_files/transparent.gif" border="0" height="1"></td>
+          </tr>
+	  
+		  <tr>
+            <td valign="top" width="22%">
+			</td>
+            
+            <td align="justify"> <br>
+          
+			</td>
+		  </tr>
+
+
+<tr><td colspan="2">
+<!--Page content begins. Keep this line.-->
+<table cellpadding = "10">
+
+<tr>
+<td colspan=2 valign="top">
+<br><b> <h2> Instructors: </h2> </b>
+</td>
+</tr>
+
+<tr>
+<td class="ppl_pic"  valign="top">
+<img src="../../../~tom/Tom_Provence_July2010_v2_lowres.jpg" width="230" height="137"><br><br>
+</td>
+<td class="ppl_text"  valign="top"> 
+<br>
+<b><a href="http://www.cs.cmu.edu/~tom" target="blank">Tom Mitchell</a></b><br>GHC 8211, x8-2611 <br> Office hours: 
+Mon &amp; Wed after class.
+</td>
+</tr>
+
+<tr>
+<td class="ppl_pic"  valign="top">
+<img src="../../nina_small2.jpg" width="150" height="170"><br><br>
+</td>
+<td class="ppl_text"  valign="top"> 
+<br>
+<b><a href="http://www.cs.cmu.edu/~ninamf/" target="blank">Maria-Florina Balcan</a></b><br>GHC 8017, x8-5259 <br> Office hours: 
+Mon 3:00-4:00
+</td>
+</tr>
+
+<tr>
+<td colspan=2 valign="top">
+<br><b> <h2> Class Assistant: </h2> </b>
+</td>
+</tr>
+
+<tr>
+<td class="ppl_pic"  valign="top">
+<img src="sharon.png" width="180" height="180"><br><br>
+</td>
+<td class="ppl_text"  valign="top"> 
+<br>
+<b><a href="http://www.cs.cmu.edu/~sharonw/" target="blank">Sharon Cavlovich</a></b><br>GHC 8215, x8-5196 <br> 
+</td>
+</tr>
+
+
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<br><b> <h2> Teaching Assistants: </h2> </b>
+</td>
+</tr>
+
+<tr>
+<td class="ppl_pic"  valign="top">
+<img src="travis.jpg"  width="160" height="168"><br><br>
+</td>
+<td class="ppl_text"  valign="top"> 
+<br>
+<b><a href="http://www.cs.cmu.edu/directory/travis-dick" target="blank">Travis Dick</a></b><br>GHC 6008 <br> Office hours:
+Mon 5:00-6:00, common area outside GHC 8011.
+</td>
+</tr>
+
+<tr>
+<td class="ppl_pic"  valign="top">
+<img src="http://ml.cmu.edu/people/people-images/early115.jpg"  width="160" height="168"><br><br>
+</td>
+<td class="ppl_text"  valign="top"> 
+<br>
+<b><a href="http://www.cs.cmu.edu/directory/kirstin-early" target="blank">Kirstin Early</a></b><br>GHC 8011 <br> Office hours:
+Thu 5:00-6:00, common area outside GHC 8011.
+</td>
+</tr>
+
+<tr>
+<td class="ppl_pic"  valign="top">
+<img src="http://www.ml.cmu.edu/people/people-images/hefny115.jpg"  width="160" height="168"><br><br>
+</td>
+<td class="ppl_text"  valign="top"> 
+<br>
+<b><a href="http://www.cs.cmu.edu/~ahefny/" target="blank">Ahmed Hefny</a></b><br> GHC 8223 <br> Office hours: Fri 3:30-4:30
+</td>
+</tr>
+
+<tr>
+<td class="ppl_pic"  valign="top">
+<img src="http://www.ml.cmu.edu/people/people-images/marchetti115.jpg"  width="160" height="168"><br><br>
+</td>
+<td class="ppl_text"  valign="top"> 
+<br>
+<b><a href="http://www.cs.cmu.edu/directory/micol-marchetti-bowick" target="blank">Micol Marchetti-Bowick</a></b><br>GHC 8003 <br> Office hours: 
+Tue 2:00-3:00, common area outside GHC 8011.
+</td>
+</tr>
+
+<tr>
+<td class="ppl_pic"  valign="top">
+<img src="http://www.ml.cmu.edu/people/people-images/neiswanger115.jpg"  width="160" height="168"><br><br>
+</td>
+<td class="ppl_text"  valign="top"> 
+<br>
+<b><a href="http://www.cs.cmu.edu/~wdn/" target="blank">Willie Neiswanger</a></b><br>GHC 8011 <br> Office hours: 
+Tue 5:00-6:00 <br>
+</td>
+</tr>
+
+<tr>
+<td class="ppl_pic"  valign="top">
+<img src="http://www.ml.cmu.edu/people/people-images/saparov115.jpg"  width="160" height="168"><br><br>
+</td>
+<td class="ppl_text"  valign="top"> 
+<br>
+<b><a href="http://www.cs.cmu.edu/directory/abulhair-saparov" target="blank">Abulhair Saparov</a></b><br>GHC 8008 <br> Office hours:
+Thu 1:30-2:30 <br>
+</td>
+</tr>
+
+</table>
+
+<!--Page content ends. Keep this line.-->
+</td></tr>
+		  <tr>
+            <td colspan="2" bgcolor="#993333"><img src="transparent.gif" border="0" height="1"></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<script type="text/javascript" src="http://www.cs.cmu.edu/~ninamf/courses/601sp15/video/utube_slides.js"></script>
+	<script type="text/javascript">
+		function startPlayer() {
+			//Optional: set index style
+			setIndexStyle(
+				"background-color: #222222; color: #FFFF00",	//active segment
+				"background-color: #EEEEEE; color: #000000"	//inactive segments
+			);
+
+			//Optional: Set youtube player dimensions (default is 640x480)
+			setVideoDims(640, 480);
+
+			initYoutubeAndSlides("ek0JtB1Ftn0",
+				[
+					"0:00:00","14/slides14-0.png","",0,
+					"0:02:24","14/slides14-2.png","",0,
+					"0:04:53","14/slides14-3.png","",0,
+					"0:05:33","14/slides14-4.png","",0,
+					"0:06:13","14/slides14-5.png","",0,
+					"0:10:08","14/slides14-6.png","",0,
+					"0:11:09","14/slides14-7.png","Using Unlabeled Data to Help Train Naive Bayes Classifier",1,
+					"0:12:06","14/slides14-8.png","EM and Estimating theta",2,
+					"0:15:41","14/slides14-7.png","",0,
+					"0:21:14","14/slides14-7.png","Experiments",1,
+					"0:22:10","14/slides14-10.png","Results: 20 News Groups",2,
+					"0:24:19","14/slides14-11.png","Results: Web-page Classification",2,
+					"0:29:10","14/slides14-12.png","Results: 20 News Groups (2)",2,
+					"0:31:10","14/slides14-7.png","",0,
+					"0:33:01","14/slides14-13.png","Unsupervised Learning",1,
+					"0:34:00","14/slides14-14.png","Clustering",1,
+					"0:34:14","14/slides14-15.png","Mixture Disributions",2,
+					"0:37:55","14/slides14-16.png","",0,
+					"0:38:50","14/slides14-17.png","EM For Mixture of Gaussian Clustering",1,
+					"0:41:15","14/slides14-19.png","E-Step",2,
+					"0:42:43","14/slides14-20.png","M-Step",2,
+					"0:45:41","14/slides14-21.png","",0,
+					"0:47:08","14/slides14-22.png","Putting it together",2,
+					"0:48:44","14/slides14-23.png","Applet",2,
+					"0:50:16","14/slides14-24.png","What you should know about EM",1,
+					"0:54:43","14/slides14-25.png","Learning Bayes Net Structure",1,
+					"0:55:36","14/slides14-26.png","",0,
+					"1:01:23","14/slides14-27.png","Chow-Liu ALgorithm",2,
+					"1:06:02","14/slides14-28.png","",0,
+					"1:07:46","14/slides14-29.png","Example",2
+				]
+			, "ytapiplayer"
+			, "slidedisplay"
+			, "index"
+			);
+		}
+	</script>
+  </head>
+  <body>
+	<table id="playerslidescombo" border=1>
+	<tr><td>
+	<div id="ytapiplayer" style="float:left;">
+		You need HTML5 and JavaScript enabled to view this video.
+	</div>
+	</td><td></td><td>
+	<div id="slidedisplay" style="float:left;width:640px;height:480px" />
+	</td></tr>
+	<tr>
+	<td colspan=3>
+	<div id="index" style="max-height:200px;overflow:auto" />
+	</td></tr>
+	</table>
+
+	<script type="text/javascript">
+		startPlayer();	
+	</script>
+  </body>
+</html>

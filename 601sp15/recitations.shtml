@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ 
+  <link rel="SHORTCUT ICON" href="ml-logo.gif">
+  <link rel="stylesheet" href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/style.css">
+
+  <title>
+Machine Learning 10-601 Spring 2015: Recitations
+  </title>
+</head>
+   
+<body link="#993333">
+
+<table align="center" border="0" cellpadding="8" width="70%">  
+  <tbody>  
+    <tr>
+ 
+      <td width="80%">  
+      <h1 align="left"> <br>
+      <b> Machine Learning</b> </h1>
+ 
+      <h2> 10-601, Spring 2015 </h2>
+      <h2> Carnegie Mellon University </h2>
+ 
+      <h2><a href="http://www.cs.cmu.edu/~tom">Tom Mitchell</a> and <a href="http://www.cs.cmu.edu/~ninamf/"> Maria-Florina Balcan </a> <br>
+ </h2>
+  
+      </td>
+ 
+      <td align="right" width="20%"><img src="ml-logo.gif" height="150" width="150">
+      </td>
+ 
+    </tr>
+  
+    <tr>
+ 
+      <td colspan="2" align="justify" valign="top"> <br>
+ 
+      <br><table width="100%">
+        <tbody>
+          <tr>
+            <td colspan="2" bgcolor="#993333"><img src="transparent.gif" border="0" height="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="justify">
+            <table width="100%">
+              <tbody>
+                <tr>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="index.html"> <b>Home</b> </a> 
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="ppl.shtml"> <b>People </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="lectures.shtml"> <b> Lectures </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="recitations.shtml"> <b>Recitations </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="homeworks.shtml"> <b>Homeworks </b></a>
+                  </p>
+                  </td>
+				  <td width="12%">
+                  <p class="headlink">
+                  <a href="projects.html"> <b>Project</b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="prev.shtml"> <b> Previous material </b></a>
+                  </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" bgcolor="#993333"><img src="http://www.cs.cmu.edu/~ninamf/courses/601sp15/Machine&#32;Learning&#32;10-601&#32;Fall&#32;2012_files/transparent.gif" border="0" height="1"></td>
+          </tr>
+	  
+		  <tr>
+            <td valign="top" width="22%">
+			</td>
+            
+            <td align="justify"> <br>
+          
+			</td>
+		  </tr>
+
+
+<tr><td colspan="2">
+
+<table width="80%" class="schedule" _base_target="_blank" style="margin-top: 20px; margin-bottom: 20px;" border=1 cellspacing=0>
+  <col style="vertical-align: top; text-align: left;" width="8%">
+  <col style="vertical-align: top; text-align: center;" width="13%">
+  <col style="vertical-align: top; text-align: center;" width="40%">
+  <col style="vertical-align: top; text-align: left;" width="29%">
+  <col style="vertical-align: top; text-align: left;" width="10%">
+  <tbody _base_target="_blank">
+    <tr _base_target="_blank">
+      <th style="text-align: center;" _base_target="_blank">Date</th>
+      <th style="text-align: center;" _base_target="_blank">Lecture</th>
+      <th style="text-align: center;" _base_target="_blank">Topics</th>
+      <th style="text-align: center;" _base_target="_blank">Readings and useful links</th>
+      <th style="text-align: center;" _base_target="_blank">Handouts</th>
+    </tr>
+
+	<tr>
+		<td style="text-align: center;">Jan 15</td>
+		<td style="text-align: center;">Math Review<br>Decision Trees<br></td>
+		<td style="text-align: left;">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td style="text-align: center;">
+		<a href="slides/r01_math_decision_trees.pdf">Notes</a>
+		</td>
+	</tr>
+        <tr>
+                <td style="text-align: center;">Jan 22</td>
+                <td style="text-align: center;">Octave tutorial<br>MLE and MAP<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+                <a href="http://youtu.be/m1zzZqRVAFk">Video</a>
+                </td>
+	</td>
+        <tr>
+                <td style="text-align: center;">Jan 30</td>
+                <td style="text-align: center;">Naive Bayes<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+                <a href="http://youtu.be/Y1MfqlOgPaM">Video</a>
+                </td>
+        </td>
+	<tr>
+		<td style="text-align: center;">Feb 5</td>
+		<td style="text-align: center;">Regression<br></td>
+		<td style="text-align: left;">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td style="text-align: center;">
+		<a href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/slides/r04_regression.pptx">Slides</a><br/>
+		<a href="http://youtu.be/tWj0t2DzuRA">Video</a>
+		</td>
+	</td>
+	<tr>
+                <td style="text-align: center;">Feb 12</td>
+                <td style="text-align: center;">Learning theory<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+		<a href="http://youtu.be/uoBw7DTZDQM">Video</a>
+		</td>
+	</td>
+	<tr>
+                <td style="text-align: center;">Feb 19</td>
+                <td style="text-align: center;">Graphical models<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+                <a href="http://youtu.be/8u80iuyA9dg">Video</a>
+                </td>
+	</td>
+        <tr>
+                <td style="text-align: center;">Feb 26</td>
+                <td style="text-align: center;">Additional practice with graphical models<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+                <a href="http://youtu.be/wNeXzRTXDPc">Video</a>
+                </td>
+        </td>
+        <tr>
+                <td style="text-align: center;">Mar 5</td>
+                <td style="text-align: center;">Midterm solutions review<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+                <a href="http://youtu.be/GMibns0KaUE">Video</a>
+                </td>
+        </td>
+        <tr>
+                <td style="text-align: center;">Mar 19</td>
+                <td style="text-align: center;">Boosting<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+                <a href="http://youtu.be/ynRdOgg-9sU">Video</a>
+                </td>
+        </td>
+        <tr>
+                <td style="text-align: center;">Mar 26</td>
+                <td style="text-align: center;">SVM<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+                <a href="http://youtu.be/S4Cjl_GwGZg">Video</a>
+                </td>
+        </td>
+        <tr>
+                <td style="text-align: center;">Apr 2</td>
+                <td style="text-align: center;">Semi-supervised and Active Learning<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+                <a href="http://youtu.be/SNgUxMBw1iY">Video</a>
+                </td>
+        </td>
+        <tr>
+                <td style="text-align: center;">Apr 9</td>
+                <td style="text-align: center;">Dimensionality reduction<br>PCA<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+                <a href="http://youtu.be/pjP8pp9FhvI">Video</a>
+                </td>
+        </td>
+        <tr>
+                <td style="text-align: center;">Apr 16</td>
+                <td style="text-align: center;">Neural networks<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+                <a href="http://youtu.be/zWKuyxWhQQA">Video</a>
+                </td>
+        </td>
+        <tr>
+                <td style="text-align: center;">Apr 24</td>
+                <td style="text-align: center;">Exam review<br></td>
+                <td style="text-align: left;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align: center;">
+                <a href="http://youtu.be/1lVb8nrv0oM">Video</a>
+                </td>
+        </td>
+  </tbody>
+</table>
+
+</td></tr>
+
+		  <tr>
+            <td colspan="2" bgcolor="#993333"><img src="transparent.gif" border="0" height="1"></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+

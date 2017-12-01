@@ -1,0 +1,707 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ 
+  <link rel="SHORTCUT ICON" href="ml-logo.gif">
+  <link rel="stylesheet" href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/style.css">
+
+  <title>
+Machine Learning 10-601 Spring 2015
+  </title>
+</head>
+   
+<body link="#993333">
+
+<table align="center" border="0" cellpadding="8" width="70%">  
+  <tbody>  
+    <tr>
+ 
+      <td width="80%">  
+      <h1 align="left"> <br>
+      <b> Machine Learning</b> </h1>
+ 
+      <h2> 10-601, Spring 2015 </h2>
+      <h2> Carnegie Mellon University </h2>
+ 
+      <h2><a href="http://www.cs.cmu.edu/~tom">Tom Mitchell</a> and <a href="http://www.cs.cmu.edu/~ninamf/"> Maria-Florina Balcan </a> <br>
+ </h2>
+  
+      </td>
+ 
+      <td align="right" width="20%"><img src="ml-logo.gif" height="150" width="150">
+      </td>
+ 
+    </tr>
+  
+    <tr>
+ 
+      <td colspan="2" align="justify" valign="top"> <br>
+ 
+      <br><table width="100%">
+        <tbody>
+          <tr>
+            <td colspan="2" bgcolor="#993333"><img src="transparent.gif" border="0" height="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="justify">
+            <table width="100%">
+              <tbody>
+                <tr>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="index.html"> <b>Home</b> </a> 
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="ppl.shtml"> <b>People </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="lectures.shtml"> <b> Lectures </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="recitations.shtml"> <b>Recitations </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="homeworks.shtml"> <b>Homeworks </b></a>
+                  </p>
+                  </td>
+				  <td width="12%">
+                  <p class="headlink">
+                  <a href="projects.html"> <b>Project</b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="prev.shtml"> <b> Previous material </b></a>
+                  </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" bgcolor="#993333"><img src="http://www.cs.cmu.edu/~ninamf/courses/601sp15/Machine&#32;Learning&#32;10-601&#32;Fall&#32;2012_files/transparent.gif" border="0" height="1"></td>
+          </tr>
+	  
+		  <tr>
+            <td valign="top" width="22%">
+			</td>
+            
+            <td align="justify"> <br>
+          
+			</td>
+		  </tr>
+
+
+<tr><td valign="top" colspan="2"><table>
+<tr>
+  <b><font size="4">Course Project Guidelines</font></b><br />
+  <br /></td>
+</tr>
+<tr>
+  <td align="justify">
+	Your class project is an opportunity for you to explore an interesting machine
+	learning problem of your choice in the context of a real-world data set. Below,
+	you will find some project ideas, but the best idea would be to combine machine
+	learning with problems in your own research area. Your class project must be
+	about new things you have done this semester; you can't use results you have
+	developed in previous semesters. In short, a typical project consists of picking an interesting dataset,
+	applying one or more appropriate and well-known machine learning techniques for an interesting task as baselines,
+	and extending these baselines in creative and interesting ways.
+
+	<ul>
+	  <li>Projects can be done in teams of 2-4 students. Team members
+	  are responsible for dividing up the work
+	  equally and making sure that each member contributes.</li>
+
+  <li> If you are having trouble writing a proposal, feel free to
+	  consult with a TA or the instructor.  Once you submit your proposal,
+	  we will give you feedback. Of course the final responsibility to
+	  define and execute an interesting piece of work is yours </li>
+
+	  <li>Each project will be assigned a 10601 TA as a project
+	  consultant/mentor.</li>
+
+	  <li>You are strongly urged to consult a TA or the instructor early on if your
+	  project will rely purely on simulated data or if you intend to do a learning
+	  theory related project. A theory project should look at a concrete technical open question,
+	  analyze relevant literature, and develop insightful and interesting attempts.
+	  Links to open problems can be found <a href="http://orfe.princeton.edu/conferences/colt2014/for-authors/announcements/announcement-2013-02-03">here</a>.
+	  </li>
+	</ul>Your project will be worth 20% of your final class grade, and will have 4
+	deliverables:
+
+	<ul>
+	  <li><b>Proposal, March 6</b>: 1 page (10%)</li>
+
+	  <li><b>Midway Report, April 6</b>: 5-8 pages (25%)</li>
+
+	  <li><b>Poster Presentation, May 11</b>: (20%)</li>
+
+	  <li><b>Final Report, May 8</b>: 10 pages (45%)</li>
+	</ul>Note that all write-ups must be in the form of a <a href=
+	"http://nips.cc/PaperInformation/StyleFiles">NIPS paper</a>. The page limits are
+	strict! Papers over the limit will not be considered. Each deliverable of your
+	project will be evaluated based on several factors:
+
+	<ul>
+	  <li>The novelty of the project ideas and applications. The groups are
+	  encouraged to come up with original ideas and novel applications for the
+	  projects. A project with new ideas (algorithms, methods, theory) on ML or new,
+	  interesting applications of existing algorithms is scored higher than a project
+	  without much new idea/application.</li>
+
+	  <li>The extensiveness of the study and experiments. A project that
+	  produces a more intelligent system by combining several ML
+	  techniques together, or a project that involves well-designed
+	  experiments and thorough analysis of the experimental results, or a
+	  project that nicely incorporates various real world applications,
+	  are scored higher.</li>
+
+	  <li>The writing style and the clarity of the written paper.</li>
+	</ul>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" bgcolor="#993333"><img src="transparent.gif" height="1" border=
+  "0" /></td>
+</tr>
+
+<tr>
+  <td align="justify">
+	<b><br />
+	<font size="4">Project Proposal (Due Date: March 6)</font><br />
+	<br /></b> A list of suggested projects and data sets are posted below. Read the
+	list carefully. You are encouraged to use one of the suggested data sets, because
+	we know that they have been successfully used for machine learning in the past.
+	If you prefer to use a different data set, we will consider your proposal, but
+	(1) you must discuss your idea with an instructor or a TA before submitting the proposal 
+    and (2) you must have access to this data already, and present a clear proposal for what
+	you would do with it.<br />
+	<br />
+	<b>Page limit:</b> Proposals should be one page maximum.<br />
+	<br />
+	Include the following information:
+
+	<ul>
+	  <li>Project title</li>
+
+	  <li>Data set</li>
+
+	  <li>Project idea. This should be approximately two paragraphs.</li>
+
+	  <li>Software you will need to write.</li>
+
+	  <li>Papers to read.Include 1-3 relevant papers.You will probably want to read
+	  at least one of them before submitting your proposal</li>
+
+	  <li>Teammate (if any) and work division. We expect projects done in a group to
+	  be more substantial than projects done individually.</li>
+
+	  <li>Midterm milestone: What will you complete by April 6? 
+	  Specifically, what baselines will you try on your datasets and what kind of results 
+	  do you expect to report ?</li>
+	</ul>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" bgcolor="#993333"><img src="transparent.gif" height="1" border=
+  "0" /></td>
+</tr>
+
+<tr>
+  <td align="justify">
+	<b><br />
+	<font size="4">Midway Report (Due Date: April 6)</font><br />
+	<br /></b> This should be a 5-8 pages report in the form of
+	a <a href= "http://nips.cc/PaperInformation/StyleFiles">NIPS
+	paper</a>, and it serves as a check-point. By this date you 
+	should have applied one or more commonly used learning methods on a specific problem.
+	The report should include a background section which describes the 
+	problem you are tackling, a related work section, a description of the method(s) you tried,
+	an experiments section with detailed description of the dataset you experimented with and the results you obtained.
+
+	For a theory project, instead of the experiments section, the report must include an insightful analysis of 2-3 related papers.
+	The analysis should demonstrate your deep understanding of these papers.
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" bgcolor="#993333"><img src="transparent.gif" height="1" border=
+  "0" /></td>
+</tr>
+
+<tr>
+	<td align="justify">
+	<b><br />
+	<font size="4">Final Report (Due Date: May 8)</font><br />
+	<br /></b>
+	  The structure of the final report is similar to that of the midterm report. 
+	  By that time you should extend the baseline(s) you tried in an interesting and creative way.
+	  That can include feature engineering, optimizing the training algorithm, modifications to the model ... etc. 
+	  For a theory project, you should present interesting attempts to attack the problem at hand.
+	</td>
+</tr>
+
+<tr>
+  <td colspan="2" bgcolor="#993333"><img src="transparent.gif" height="1" border=
+  "0" /></td>
+</tr>
+
+<tr>
+  <td align="justify">
+	<b><br />
+	<font size="4">Poster Presentation (Date: May 11)</font><br />
+	<br /></b> <!--<a href="poster.ppt">Poster
+	.ppt template</a><br />-->
+	<br />
+	All project members should be present during the poster hours. The session will
+	be open to everybody.<br />
+	<br />
+	Here are some details on the poster format.<br />
+
+	<ul>
+	  <li>The two most common ways to make your poster are:
+
+		<ul>
+		  <li>You can create a huge slide (in powerpoint, using beamer, etc) and
+		  print it out at one of the poster printers available (for SCS, details
+		  below). You'd want the shorter dimension to be less than 36'' since the
+		  special poster printers use paper rolls of width 36''.</li>
+
+		  <li>You can create a bunch of "normal" presentation slides, print out each
+		  one on a piece of (letter-sized) paper, and put them all together on a
+		  poster board. This is somewhat messier (and not as pretty) but you don't
+		  need to wait for the special poster printer to print.</li>
+		</ul>
+	  </li>
+
+	  <li>We will provide you with foam boards onto which you can tack on your poster
+	  (or your slides for the poster). The foam boards are 32'' by 40''.</li>
+
+	  <li>Printing: Unfortunately, we don't have a budget to pay for printing. If you
+	  are an SCS student, SCS has a poster printer you can use which prints on a 36''
+	  wide roll of paper. See <a href="https://www.cs.cmu.edu/~help/printing/poster_printing.html">SCS Poster Printing</a>
+	  for more details </li>
+	</ul>If you are a student outside SCS, you will need to check with your
+	department to see if there are printing facilities for big posters (we're not
+	sure what is offered outside SCS), or just print a collection of
+	regular sized pages and attach them to the poster board.
+  </td>
+</tr>
+<tr>
+  <td colspan="2" bgcolor="#993333"><img src="transparent.gif" height="1" border=
+  "0" /></td>
+</tr>
+
+<tr>
+  <td><b><font size="4"><br />
+  Project Suggestions<br />
+  <br /></font></b></td>
+</tr>
+
+<tr>
+  <td align="justify"><font size="3"><b><u>Here are some project ideas and datasets</u></b>:<br />
+  <br />
+  <b>Vector Space Models for Natural Language Processing</b><br />
+  <br />
+  Many tasks in natural language processing can be performed with only very shallow
+  understanding of text. The vector space model is one example of a useful, but
+  shallow, data representation that has been successfully used for many tasks,
+  including detecting synonyms, finding analogies, and learning properties of noun
+  phrases. The vector space model represents the meaning of a noun phrase(NP) (e.g.
+  "the New York Yankees" or "house") as a vector of co-occurrence counts with
+  contexts. A context is a short snippet of text like "alex rodriguez plays for _" or
+  "_ on the street". The model is essentially a (very) large matrix A, whose rows
+  represent noun phrases and whose columns represent contexts. The value of entry
+  A_{i,j} is the number of times noun phrase i occurred with context j in a large
+  corpus of documents (e.g., the Web). Intuitively, this model contains useful
+  information because some contexts only occur with certain types of noun phrases;
+  for example, the context "athletes, such as _" only occurs with athletes.<br />
+  <br />
+  <a href="http://www.cs.cmu.edu/~tom/10709_fall09/RTWdata.html">Download Dataset and
+  Related Tools</a><br />
+  <br />
+  <u>Project ideas:</u><br />
+  In this project, we will provide you with an NP-context co-occurrence matrix and
+  ask you to do something interesting with it. Possible applications include finding
+  synonyms, finding members of categories (i.e., "is this noun phrase an athlete?"),
+  or clustering noun phrases to automatically induce categories. For more ideas, we
+  recommend reading (1).<br />
+  <br />
+  Another interesting set of projects could use this data as a case study for
+  learning in high-dimensions. These projects could examine how dimensionality
+  reduction or regularization affect performance on one of the above tasks.<br />
+  <br />
+  Vector space models are also used for many other tasks, including document
+  classification and topic modeling. The 20 Newsgroups data is a classic data set for
+  these tasks. You can obtain <a href=
+  "http://people.csail.mit.edu/jrennie/20Newsgroups/">this dataset from
+  here</a><br />
+  <br />
+  (1) Peter D. Turney and Patrick Pantel (2010). From Frequency to Meaning: Vector
+  Space Models of Semantics. Journal of Artificial Intelligence Research 37, pp.
+  141-188.<br />
+  <br /></font></td>
+</tr>
+
+<tr>
+  <td align="justify"><b>Semi-Supervised Learning </b><br />
+  <br />
+  In many applications, it is easy to obtain a large amount of unlabeled data, but
+  difficult or costly to label this data. Semi-supervised learning studies algorithms
+  which learn from a small amount of labeled data and a large pool of unlabeled data.
+  Interestingly, semi-supervised learning is not always successful, and unlabeled
+  data points do not always improve performance. Semi-supervised learning algorithms
+  typically make an assumption about the data distribution which enables learning --
+  for example, several algorithms assume that the decision boundary should not pass
+  through regions with high data density. When this assumption is satisfied, the
+  algorithms perform better than supervised learning.<br />
+  <br />
+  The goal of this project is to experiment with semi-supervised learning algorithms
+  on a data set of your choice. Some algorithms you can consider using are:
+  co-training, self-training, transductive SVMS (S3VMs), or one of the many
+  graph-based algorithms. (We recommend reading (1) for a survey of the many
+  approaches to semi-supervised learning.) You may compare several semi-supervised
+  and supervised algorithms on your data set, and perhaps draw some general
+  conclusions about semi-supervised learning.<br />
+  <br />
+  This project can use essentially any data set. For some ideas, we recommend
+  consulting the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine Learning
+  Repository</a>.<br />
+  <br />
+  (1) Xiaojin Zhu. Semi-supervised Learning Literature Survey. Available <a href=
+  "../../../../pages.cs.wisc.edu/~jerryzhu/research/ssl/semireview.html">Here</a>.<br />
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify"><b>Privacy-Related Project Ideas</b><br />
+  <br />
+  A recent paper shows how decision trees may be approximated in the "secure
+  multiparty" setting, by using tools of cryptography. This allows several parties to
+  compute a decision tree on the union of their data without requiring them to share
+  the data itself with each other. See <a href=
+  "http://www.pinkas.net/PAPERS/id3-final.pdf">here</a> for the algorithm and
+  <a href="http://repository.cmu.edu/cgi/viewcontent.cgi?article=1004&amp;context=jpc">
+  here</a> for a general discussion.<br />
+  <br />
+  An alternative notion of privacy which has received much attention lately is
+  so-called "Differential Privacy" (see e.g, <a href=
+  "http://research.microsoft.com/en-us/projects/databaseprivacy/dwork.pdf">here</a>.
+  So far approaches have been studied for many machine learning methods under this
+  model of privacy (such as logistic regression: see <a href=
+  "http://arxiv.org/abs/0912.0071">here</a> and svm: see <a href=
+  "http://arxiv.org/abs/0911.5708">here</a>. This notion of privacy is fundamentally
+  different to the usual cryptographic one.<br />
+  <br />
+  The datasets for this project can be found at the <a href=
+  "http://archive.ics.uci.edu/ml/datasets.html">UCI machine learning archive</a>
+  (Please consult Rob Hall for more details about the datasets.).<br />
+  <br />
+  <u>Project Idea 1: Differentially Private Decision Trees</u><br />
+  See whether it is possible to implement a decision tree learner in a
+  differentially-private way. This would entail creating a randomized algorithm which
+  outputs a decision tree. Furthermore, when one of the elements of the input data is
+  changed, the distribution over the outputs should not change by much (cf, the
+  definition of differential privacy). Analyze under what conditions the approach
+  will work and analyze the error rate relative to that of the non-private decision
+  tree.<br />
+  <br />
+  <u>Project Idea 2: Secure Multiparty EM</u><br />
+  Implement EM for some kind of mixture model in a secure multiparty way (i.e.,
+  making use of cryptography to protect the intermediate quantities). This has been
+  studied already in the context of imputation (see <a href=
+  "http://www.cs.rutgers.edu/~rwright1/Publications/padm06.pdf">here</a>). Although
+  in principle, existing cryptographic primitives may be used to compute any
+  funciton, in order to get a reasonably efficient algorithm you will have to come up
+  with approximations which are less expensive to compute. Analyze the effects of any
+  such approximations you make.<br />
+  <br />
+  <u>Project Idea 3: Differentially Private Sparse Covariance Estimation</u><br />
+  The estimation of gaussian covariance matrices has received ample attention lately
+  (see e.g, <a href=
+  "http://projecteuclid.org/DPubS?service=UI&amp;version=1.0&amp;verb=Display&amp;handle=euclid.ejs/1214491853">
+  here</a>). When the covariance matrix is sparse (i.e., the off-diagonal elements
+  are mostly 0) then there is a nice correspondence between the multivariate
+  gaussian, and a certain type of undirected graphical model. See whether it is
+  possible to estimate sparse covariance matrices in a way which satisfies the
+  definition of differential privacy as shown above. Analyze how much error will be
+  in the algorithm compared with the non-private one.<br />
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify"><b>KDD cup 2010 (Provided by Datashop in Pittsburgh Science
+  Learning Center)</b><br />
+  <br />
+  The KDD Cup is the annual Data Mining and Knowledge Discovery competition in which
+  some of the best data mining teams in the world compete to solve an practical data
+  mining problem of some importance. The 2010 challenge was about discovering how
+  generally or narrowly do students learn? How quickly or slowly? Will the rate of
+  improvement vary between students? What does it mean for one problem to be similar
+  to another? It might depend on whether the knowledge required for one problem is
+  the same as the knowledge required for another. But is it possible to infer the
+  knowledge requirements of problems directly from student performance data, without
+  human analysis of the tasks? This year's challenge asks you to predict student
+  performance on mathematical problems from logs of student interaction with
+  Intelligent Tutoring Systems. This task presents interesting technical challenges,
+  has practical importance, and is scientifically interesting.<br />
+  <br />
+  <b>[Download the datasets:]</b> <a href=
+  "https://pslcdatashop.web.cmu.edu/KDDCup/downloads.jsp">Click here to download the
+  data.</a><br />
+  <br />
+  More information about the datasets can be found by <a href=
+  "https://pslcdatashop.web.cmu.edu/KDDCup/rules.jsp">Click here</a>.<br />
+  <br />
+  You will apply the various machine learning techniques to the KDD datasets to
+  improve the accuracy on predicting "Correct First Attempt values" for the test
+  portion of the data. Please report the Root Mean Squared Error (RMSE).<br />
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify"><b>30-40 Datasets for Education Data Mining </b><br />
+  <br />
+  <b>[Dataset Webpage:]</b> Go to the webpage <a href=
+  "https://pslcdatashop.web.cmu.edu/">https://pslcdatashop.web.cmu.edu/</a> (You may
+  need log in through WebISO) and click "Public Datasets".<br />
+  <br />
+  There are about 30-40 public datasets available from the webpage (Only select the
+  datasets whose status is labeled "complete"). If you clicking each datasets, you
+  will find a general description and the related publications. To look at the
+  datasets, click "Export" link.<br />
+  <br />
+  <u>Project Idea 1:</u><br />
+  For each dataset, you can compare various machine learning techniques (at least
+  five to seven different ML methods) on predicting "Correct First Attempt values"
+  (Generally listed in the column "Outcome"). Please report the Root Mean Squared
+  Error (RMSE).<br />
+  <br />
+  <u>Project Idea 2:</u><br />
+  Across datasets, you can compare several machine learning techniques (at least two
+  to three different ML methods) on predicting "Correct First Attempt
+  values"(Generally listed in the column "Outcome"). Please report the Root Mean
+  Squared Error (RMSE) on the test data. The hypothesis here is that there may not be
+  an absolute winner, different machine learning techniques may be effective on
+  different task domains. For example, you can split the datasets into science
+  (physics &amp; math) vs. second language learning (Chinese, French).<br />
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify"><br />
+  <br />
+  <b>Image Segmentation Dataset</b><br />
+  The goal is to segment images in a meaningful way. Berkeley collected three hundred
+  images and paid students to hand-segment each one (usually each image has multiple
+  hand-segmentations). Two-hundred of these images are training images, and the
+  remaining 100 are test images. The dataset includes code for reading the images and
+  ground-truth labels, computing the benchmark scores, and some other utility
+  functions. It also includes code for a segmentation example. This dataset is new
+  and the problem unsolved, so there is a chance that you could come up with the
+  leading algorithm for your project.<br />
+  <br />
+  <a href="http://www.cs.berkeley.edu/projects/vision/grouping/segbench/">Download
+  Dataset</a><br />
+  <br />
+  <u>Project idea:</u> Region-Based Segmentation<br />
+  Most segmentation algorithms have focused on segmentation based on edges or based
+  on discontinuity of color and texture. The ground-truth in this dataset, however,
+  allows supervised learning algorithms to segment the images based on statistics
+  calculated over regions. One way to do this is to "oversegment" the image into
+  superpixels (Felzenszwalb 2004, code available) and merge the superpixels into
+  larger segments. Graphical models can be used to represent smoothness in clusters,
+  by adding appropriate potentials between neighboring pixels. In this project, you
+  can address, for example, learning of such potentials, and inference in models with
+  very large tree-width.<br />
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify"><b>Character recognition (digits) data</b><br />
+  Optical character recognition, and the simpler digit recognition task, has been the
+  focus of much ML research. We have two datasets on this topic. The first tackles
+  the more general OCR task, on a small vocabulary of words: (Note that the first
+  letter of each word was removed, since these were capital letters that would make
+  the task harder for you.)<br />
+  <br />
+  <a href="../../../../ai.stanford.edu/~btaskar/ocr/index.html">Download dataset.</a><br />
+  <br />
+  Project suggestion:<br />
+  * Use an HMM to exploit correlations between neighboring letters in the general OCR
+  case to improve accuracy. (Since ZIP codes don't have such constraints between
+  neighboring digits, HMMs will probably not help in the digit case.)<br />
+  <br />
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify"><b>NBA statistics data</b><br />
+  <a href="http://www.cs.cmu.edu/%7Eawm/10701/project/databasebasketball2.0.zip">This
+  download</a> contains 2004-2005 NBA and ABA stats for:<br />
+  <br />
+  -Player regular season stats<br />
+  -Player regular season career totals<br />
+  -Player playoff stats<br />
+  -Player playoff career totals<br />
+  -Player all-star game stats<br />
+  -Team regular season stats<br />
+  -Complete draft history<br />
+  -coaches_season.txt - nba coaching records by season<br />
+  -coaches_career.txt - nba career coaching records<br />
+  Currently all of the regular season<br />
+  <br />
+  Project idea:<br />
+  * outlier detection on the players; find out who are the outstanding players.<br />
+  * predict the game outcome.<br />
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify"><b>Precipitation data</b><br />
+  This dataset has includes 45 years of daily precipitation data from the Northwest
+  of the US:<br />
+  <br />
+  <a href="http://www.jisao.washington.edu/data_sets/widmann/">Download
+  Dataset</a><br />
+  <br />
+  Project ideas:<br />
+  Weather prediction: Learn a probabilistic model to predict rain levels.<br />
+  Sensor selection: Where should you place sensor to best predict rain.<br />
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify"><b>WebKB</b><br />
+  This dataset contains webpages from 4 universities, labeled with whether they are
+  professor, student, project, or other pages.<br />
+  <a href="../../../../www-2.cs.cmu.edu/~webkb/index.html">Download Dataset.</a><br />
+  <br />
+  Project ideas:<br />
+  * Learning classifiers to predict the type of webpage from the text.<br />
+  * Can you improve accuracy by exploiting correlations between pages that point to
+  each other using graphical models?<br />
+  <br />
+  Papers:<br />
+  * <a href=
+  "../../../../www-2.cs.cmu.edu/~webkb/index.html">http://www-2.cs.cmu.edu/~webkb/.</a><br />
+  <!--* <a href="http://www.cs.berkeley.edu/~taskar/pubs/">http://www.cs.berkeley.edu/~taskar/pubs/rmn.ps.</a> -->
+  <br />
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify"><b>Email Annotation</b><br />
+  The datasets provided below are sets of emails. The goal is to identify which parts
+  of the email refer to a person name. This task is an example of the general problem
+  area of Information Extraction.<br />
+  <br />
+  <a href="http://www.cs.cmu.edu/~einat/datasets.html">Download Dataset</a><br />
+  <br />
+  Project Ideas:<br />
+  * Model the task as a Sequential Labeling problem, where each email is a sequence
+  of tokens, and each token can have either a label of "person-name" or
+  "not-a-person-name".<br />
+  <br />
+  Papers: <a href=
+  "http://www.cs.cmu.edu/~einat/email.pdf">http://www.cs.cmu.edu/~einat/email.pdf</a><br />
+
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify">
+	<b>Netflix Prize Dataset</b><br />
+	The Netflix Prize data set gives 100 million records of the form "user X rated
+	movie Y a 4.0 on 2/12/05". The data is available here: <a href=
+	"http://www.netflixprize.com/">Netflix Prize</a>.<br />
+	<br />
+	Project idea:<br />
+
+	<ul>
+	  <li>Can you predict the rating a user will give on a movie from the movies that
+	  user has rated in the past, as well as the ratings similar users have given
+	  similar movies?<br /></li>
+
+	  <li>Can you discover clusters of similar movies or users?<br /></li>
+
+	  <li>Can you predict which users rated which movies in 2006? In other words,
+	  your task is to predict the probability that each pair was rated in 2006. Note
+	  that the actual rating is irrelevant, and we just want whether the movie was
+	  rated by that user sometime in 2006. The date in 2006 when the rating was given
+	  is also irrelevant. The test data can be found at this website.</li>
+	</ul><br />
+	<br />
+  </td>
+</tr>
+
+<tr>
+  <td align="justify"><b>Object Recognition</b><br />
+  The Caltech 256 dataset contains images of 256 object categories taken at varying
+  orientations, varying lighting conditions, and with different backgrounds.<br />
+  <br />
+  <a href="http://www.vision.caltech.edu/Image_Datasets/Caltech256/">Download
+  Dataset.</a><br />
+  <br />
+  Project ideas:<br />
+  * You can try to create an object recognition system which can identify which
+  object category is the best match for a given test image.<br />
+  * Apply clustering to learn object categories without supervision.<br />
+  <br />
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify"><b>Enron E-mail Dataset</b><br />
+  The Enron E-mail data set contains about 500,000 e-mails from about 150
+  users.<br />
+  <br />
+  The data set is available <a href="http://www.cs.cmu.edu/%7Eenron/">here</a><br />
+  <br />
+  Project ideas:<br />
+  * Can you classify the text of an e-mail message to decide who sent it?<br />
+  <br /></td>
+</tr>
+
+<tr>
+  <td align="justify"><b>More data</b><br />
+  There are many other datasets out there. UC Irvine has a repository that could be
+  useful for you project:<br />
+  <a href=
+  "http://www.ics.uci.edu/~mlearn/MLRepository.html">http://www.ics.uci.edu/~mlearn/MLRepository.html</a>.<br />
+
+  <br />
+  Sam Roweis also has a link to several datasets out there:<br />
+  <a href=
+  "http://www.cs.toronto.edu/~roweis/data.html">http://www.cs.toronto.edu/~roweis/data.html</a>.<br />
+
+  <br />
+  Dr. Jan Wiebe MPQA opinion annotated corpus:<br />
+  <a href="http://www.cs.pitt.edu/mpqa/">http://www.cs.pitt.edu/mpqa/</a><br />
+  <br />
+
+  <br />
+  <br /></td>
+</tr>
+</tr></table>
+
+		  <tr>
+            <td colspan="2" bgcolor="#993333"><img src="transparent.gif" border="0" height="1"></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>

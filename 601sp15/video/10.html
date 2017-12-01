@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<script type="text/javascript" src="http://www.cs.cmu.edu/~ninamf/courses/601sp15/video/utube_slides.js"></script>
+	<script type="text/javascript">
+		function startPlayer() {
+			//Optional: set index style
+			setIndexStyle(
+				"background-color: #222222; color: #FFFF00",	//active segment
+				"background-color: #EEEEEE; color: #000000"	//inactive segments
+			);
+
+			//Optional: Set youtube player dimensions (default is 640x480)
+			setVideoDims(640, 480);
+
+			initYoutubeAndSlides("N6oylcKNgds",
+				[
+					"0:00:00","10/slides10-1.png","Two Aspects of Machine Learning",1,
+					"0:00:16","10/slides10-2.png","PAC/SLT Models for Supervised Classification",1,
+					"0:01:14","10/slides10-3.png","",0,
+					"0:02:43","10/slides10-4.png","Sample COmplexity for Supervised Learning",1,
+					"0:07:30","10/slides10-5.png","",0,
+					"0:07:41","10/slides10-6.png","Agnostic Case",1,
+					"0:08:09","10/slides10-7.png","Uniform Convergence",2,
+					"0:10:18","10/slides10-9.png","Sample Complexity",2,
+					"0:11:29","10/slides10-7.png","Uniform Convergence",0,
+					"0:12:17","10/slides10-8.png","Heoffding's Bounds",2,
+					"0:15:45","10/slides10-9.png","Sample Complexity Proof",2,
+					"0:19:11","10/slides10-10.png","",0,
+					"0:21:05","10/slides10-11.png","Agnostic Case with Infinite Hypothesis Spaces",0,
+					"0:21:48","10/slides10-12.png","VC Dimension Generalization Bounds",2,
+					"0:23:32","10/slides10-13.png","Rademacher Complexity Bounds",2,
+					"0:26:10","10/slides10-14.png","",0,
+					"0:30:35","10/slides10-15.png","",0,
+					"0:34:57","10/slides10-16.png","",0,
+					"0:37:47","10/slides10-17.png","",0,
+					"0:40:10","10/slides10-16.png","(back)",0,
+					"0:40:29","10/slides10-17.png","",0,
+					"0:44:15","10/slides10-19.png","",0,
+					"0:44:27","10/slides10-17.png","",0,
+					"0:44:49","10/slides10-18.png","",0,
+					"0:44:44","10/slides10-19.png","",0,
+					"0:46:49","10/slides10-20.png","",0,
+					"0:50:45","10/slides10-22.png","Overfitting",1,
+					"0:53:49","10/slides10-23.png","Structural Risk Minimization",0,
+					"0:57:14","10/slides10-27.png","Techniques to Handle Overfitting",2,
+					"1:01:21","10/slides10-28.png","What you should know",1,
+					"1:03:34","10/slides10-26.png","Overfitting and Structural Risk Minimization",1,
+					"1:09:25","10/slides10-29.png","L1 vs L2 Regularization",1
+				]
+			, "ytapiplayer"
+			, "slidedisplay"
+			, "index"
+			);
+		}
+	</script>
+  </head>
+  <body>
+	<table id="playerslidescombo" border=1>
+	<tr><td>
+	<div id="ytapiplayer" style="float:left;">
+		You need HTML5 and JavaScript enabled to view this video.
+	</div>
+	</td><td></td><td>
+	<div id="slidedisplay" style="float:left;width:640px;height:480px" />
+	</td></tr>
+	<tr>
+	<td colspan=3>
+	<div id="index" style="max-height:200px;overflow:auto" />
+	</td></tr>
+	</table>
+
+	<script type="text/javascript">
+		startPlayer();	
+	</script>
+  </body>
+</html>

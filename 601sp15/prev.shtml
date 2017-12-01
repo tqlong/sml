@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+ 
+  <link rel="SHORTCUT ICON" href="ml-logo.gif">
+  <link rel="stylesheet" href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/style.css">
+
+  <title>
+
+Machine Learning 10-701/15-781
+  </title>
+</head>
+ 
+<body link="#993333">
+
+<table align="center" border="0" cellpadding="8" width="70%">  
+  <tbody>  
+    <tr>
+ 
+      <td width="80%">  
+      <h1 align="left"> <br>
+      <b> Machine Learning</b> </h1>
+ 
+      <h2> 10-601, Spring 2015 </h2>
+      <h2> Carnegie Mellon University </h2>
+ 
+      <h2><a href="http://www.cs.cmu.edu/~tom">Tom Mitchell</a> and <a href="http://www.cs.cmu.edu/~ninamf/"> Maria-Florina Balcan </a> <br>
+ </h2>
+  
+      </td>
+ 
+      <td align="right" width="20%"><img src="ml-logo.gif" height="150" width="150">
+      </td>
+ 
+    </tr>
+  
+    <tr>
+ 
+      <td colspan="2" align="justify" valign="top"> <br>
+ 
+      <br><table width="100%">
+        <tbody>
+          <tr>
+            <td colspan="2" bgcolor="#993333"><img src="transparent.gif" border="0" height="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="justify">
+            <table width="100%">
+              <tbody>
+                <tr>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="index.html"> <b>Home</b> </a> 
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="ppl.shtml"> <b>People </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="lectures.shtml"> <b> Lectures </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="recitations.shtml"> <b>Recitations </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="homeworks.shtml"> <b>Homeworks </b></a>
+                  </p>
+                  </td>
+				  <td width="12%">
+                  <p class="headlink">
+                  <a href="projects.html"> <b>Project</b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="prev.shtml"> <b> Previous material </b></a>
+                  </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" bgcolor="#993333"><img src="http://www.cs.cmu.edu/~ninamf/courses/601sp15/Machine&#32;Learning&#32;10-601&#32;Fall&#32;2012_files/transparent.gif" border="0" height="1"></td>
+          </tr>
+	  
+		  <tr>
+            <td valign="top" width="22%">
+			</td>
+            
+            <td align="justify"> <br>
+          
+			</td>
+		  </tr>
+
+
+
+          <tr>
+
+            <td valign="top" width="22%" colspan="2">
+<h3 style="margin-top:20px;">Previous Course Homepages</h3>
+<p class="MsoNormal">Here are a bunch of course homepages from earlier years, where you can find slides, examples of homeworks, etc.<span><span class="GramE"><span style="font-size: 13.5pt;"></span></span></span><span style="font-size: 13.5pt;">&nbsp;</span></p>
+
+<ul>
+  <li class="MsoNormal">
+        <a rel="external" href="http://www.cs.cmu.edu/~roni/10601-f07/"> The Fall 2007 10-601 Web Page</a>
+  </li>
+  <li class="MsoNormal">
+        <a rel="external" href="http://www.cs.cmu.edu/~tom/10601_sp08/"> The Spring 2008 10-601 Web Page</a>
+  </li>
+  <li class="MsoNormal">
+        <a rel="external" href="http://www.cs.cmu.edu/~tom/10601_sp09/index.html"> The Spring 2009 10-601 Web Page</a>
+  </li>
+        <a rel-"external" href="http://www.cs.cmu.edu/~ggordon/10601/">The Fall 2009 10-601 Web Page</a> 
+  </li>
+  <li>
+        <a rel="external" href="http://www.cs.cmu.edu/~roni/10601-s10/"> The Spring 2010 10-601 Web Page</a>
+  </li>
+  <li>
+	<a rel="external" href="http://www.cs.cmu.edu/afs/cs/academic/class/10601-f10/index.html"> The Fall 2010 10-601 Web Page</a>
+  </li> 
+   <li>
+        <a rel="external" href="http://www.cs.cmu.edu/~roni/10601/">The Spring 2011 10-601 Web Page</a>
+  </li> 
+  <li>
+        <a rel="external" href="http://www.cs.cmu.edu/~tom/10601_fall2012/">The Fall 2012 10-601 Web Page</a>
+  </li> 
+</ul>
+
+<h3>Previous Exams</h3>
+
+  Here are some example questions here for studying for the midterm/final. Note that these
+  are exams from earlier years, and contain some topics that will not appear in
+  this year's exams. And some topics will appear this year that do not appear in
+  the following examples.
+<ul>
+
+  <!-- Cannot find fall 2007 midterm -->
+ <li> The spring 2009 10-601 midterm (<a href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/exams/2009-spring-ml-midterm-solutions.pdf"> midterm and solutions </a>)
+  <li>The spring 2008 10-601 midterm (<a href="http://www.cs.cmu.edu/~tom/10601_sp08/midterm/midterm_solutions.pdf">midterm and solutions</a>)
+  <li>The fall 2009 10-601 midterm (<a href="http://www.cs.cmu.edu/~ggordon/10601/exams/midterm/midterm_sol.pdf">midterm and solutions</a>)
+  <li>The spring 2009 10-601 midterm (<a href="http://www.cs.cmu.edu/~tom/10601_sp09/601-sp09-midterm-solutions.pdf">midterm and solutions</a>)
+  <li>The fall 2010 10-601 midterm (<a href="http://www.cs.cmu.edu/afs/cs/academic/class/10601-f10/exams/midterm-sol.pdf">midterm and solutions</a>)
+  <!-- Cannot find spring 2007 midterm -->  
+
+  <br>
+
+  <!-- Cannot find fall 2007 final -->    
+  <!-- Cannot find spring 2008 final --> 
+  <!-- There was no fall 2009 final --> 
+  <!-- Cannot find spring 2009 final --> 
+  <!-- Cannot find fall 2010 final --> 
+  <!-- Cannot find spring 2010 final -->
+
+
+</ul>
+                
+<h3>Previous Exams from 10-701</h3>   
+            
+       
+<ul>                   
+  <li>The 2001 10-701 midterm (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2001.pdf">midterm</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2001-solution.pdf">solutions</a>) </li>
+  <li>The 2002 10-701 midterm (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2002.pdf">midterm</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2002-solution.pdf">solutions</a>) </li>
+  <li>The 2003 10-701 midterm (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2003.pdf">midterm</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2003-solution.pdf">solutions</a>) </li>
+  <li>The 2004 10-701 midterm (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2004.pdf">midterm</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2004-solution.pdf">solutions</a>) </li>
+  <li>The 2005 spring 10-701 midterm (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2005sp-solution.pdf">midterm and solutions</a>) </li>
+  <li>The 2005 fall 10-701 midterm (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2005-solution.pdf">midterm and solutions</a>)</li>
+  <li>The 2006 fall 10-701 midterm (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2006.pdf">midterm</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2006-solution.pdf">solutions</a>)</li>
+  <li>The 2007 spring 10-701 midterm (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2007s.pdf">midterm</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2007s-solution.pdf">solutions</a>)</li>
+  <li>The 2008 spring 10-701 midterm (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2008s-solution.pdf">midterm and solutions</a>)<br />
+  <li>The 2010 fall 10-701 midterm (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2010f.pdf">midterm</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2010f_sol.pdf">solutions</a>)</li>
+  <li>Additional midterm examples from 2010 fall 10-701 (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midexample.pdf">questions</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/midexample-solutions.pdf">solutions</a>) </li>
+  <li> The 2012 Spring 10-701 midterm (<a href="http://www.cs.cmu.edu/~10701/exams/midterm_solutions.pdf">midterm and solutions</a>)
+                            
+                            
+<br>
+                            
+                 
+<li>The 2001 10-701 final (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2001.pdf">final</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2001-solution.pdf">solutions</a>) </li>
+<li>The 2002 10-701 final (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2002.pdf">final with some figs missing</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2002-solution.pdf">solutions</a>) </li>
+<li>The 2003 10-701 final (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2003.pdf">final</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2003-solution.pdf">solutions</a>)</li>
+<li>The 2004 10-701 final (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2004-solution.pdf">solutions</a>) </li>
+<li>The 2006 10-701 fall final (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2006.pdf">final</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2006-solution.pdf">solutions</a>)</li>
+<li>The 2007 10-701 spring final (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2007s.pdf">final</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2007s-solution.pdf">solutions</a>)</li>
+<li>The 2008 10-701 fall final (<a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2008f.pdf">final</a>, <a href="http://www.cs.cmu.edu/~aarti/Class/10701/exams/final2008f-solution.pdf">solutions</a>)</li>
+<li>The 2012 10-701 spring final (<a href="http://www.cs.cmu.edu/~10701/exams/final-sol.pdf"> final and solutions</a>) </li>
+                        
+</ul>
+
+</td>
+</tr>
+
+		  <tr>
+            <td colspan="2" bgcolor="#993333"><img src="transparent.gif" border="0" height="1"></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+

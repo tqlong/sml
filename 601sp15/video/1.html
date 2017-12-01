@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<script type="text/javascript" src="http://www.cs.cmu.edu/~ninamf/courses/601sp15/video/utube_slides.js"></script>
+	<script type="text/javascript">
+		function startPlayer() {
+			//Optional: set index style
+			setIndexStyle(
+				"background-color: #222222; color: #FFFF00",	//active segment
+				"background-color: #EEEEEE; color: #000000"	//inactive segments
+			);
+
+			//Optional: Set youtube player dimensions (default is 640x480)
+			setVideoDims(640, 480);
+
+			initYoutubeAndSlides("m4NlfvrRCdg",
+				[
+					"0:00:00","1/slides1-0.png","What is Machine Learning ?",1,
+					"0:00:45","1/slides1-1.png","Definition",2,
+					"0:07:59","1/slides1-2.png","Examples",2,
+					"0:11:18","1/slides1-3.png","",0,
+					"0:11:50","1/slides1-4.png","",0,
+					"0:12:59","1/slides1-5.png","",0,					
+					"0:14:05","1/slides1-7.png","Practice",2,
+					"0:14:37","1/slides1-8.png","Theory",2,
+					"0:18:34","1/slides1-9.png","Machine Learning in Computer Science",2,
+					"0:21:41","1/slides1-10.png","",0,
+					"0:23:55","1/slides1-11.png","",0,
+					"0:26:10","1/slides1-12.png","What you'll learn",1,
+					"0:27:01","1/slides1-13.png","Course Logistics",1,
+					"0:27:07","1/slides1-14.png","",0,
+					"0:27:38","1/slides1-15.png","Highlights",0,
+					"0:31:28","1/slides1-16.png","Instructors and TAs",1,
+					"0:33:27","1/slides1-17.png","",0,
+					"0:34:29","1/slides1-18.png","",0,
+					"0:35:39","1/slides1-19.png","",0,
+					"0:36:41","1/slides1-20.png","",0,
+					"0:37:34","1/slides1-21.png","",0,
+					"0:38:15","1/slides1-22.png","",0,
+					"0:39:10","1/slides1-23.png","",0,
+					"0:40:10","1/slides1-24.png","Function Approximation and Decision Trees",1,
+					"0:42:34","1/slides1-25.png","Function Approximation",2,
+					"0:46:13","1/slides1-26.png","",0,
+					"0:47:19","1/slides1-27.png","",0,
+					"0:50:14","1/slides1-28.png","Decision Tree Learning",2,
+					"0:52:39","1/slides1-29.png","",0,
+					"0:53:25","1/slides1-28.png","BACK REF",0,
+					"0:53:51","1/slides1-30.png","",0,
+					"1:00:45","1/slides1-31.png","Example: Tree to predict C-section",2,
+					"1:03:04","1/slides1-32.png","Top-down Induction of Decision Trees",2,
+					"1:06:40","1/slides1-33.png","Entropy",2,
+					"1:08:18","1/slides1-34.png","",0,
+					"1:11:04","1/slides1-35.png","",0,
+					"1:14:11","1/slides1-36.png","",0,
+					"1:14:15","1/slides1-37.png","Working Example",2,
+					"1:14:21","1/slides1-38.png","",0,
+					"1:16:14","1/slides1-39.png","",0,
+					"1:17:27","1/slides1-40.png","",0								
+				]
+			, "ytapiplayer"
+			, "slidedisplay"
+			, "index"
+			);
+		}
+	</script>
+  </head>
+  <body>
+	<table id="playerslidescombo" border=1>
+	<tr><td>
+	<div id="ytapiplayer" style="float:left;">
+		You need HTML5 and JavaScript enabled to view this video.
+	</div>
+	</td><td></td><td>
+	<div id="slidedisplay" style="float:left;width:640px;height:480px" />
+	</td></tr>
+	<tr>
+	<td colspan=3>
+	<div id="index" style="max-height:200px;overflow:auto" />
+	</td></tr>
+	</table>
+
+	<script type="text/javascript">
+		startPlayer();	
+	</script>
+  </body>
+</html>

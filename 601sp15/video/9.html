@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<script type="text/javascript" src="http://www.cs.cmu.edu/~ninamf/courses/601sp15/video/utube_slides.js"></script>
+	<script type="text/javascript">
+		function startPlayer() {
+			//Optional: set index style
+			setIndexStyle(
+				"background-color: #222222; color: #FFFF00",	//active segment
+				"background-color: #EEEEEE; color: #000000"	//inactive segments
+			);
+
+			//Optional: Set youtube player dimensions (default is 640x480)
+			setVideoDims(640, 480);
+
+			initYoutubeAndSlides("3qbLJdjE3Nw",
+				[
+					"0:00:00","9/slides9-0.png","",0,
+					"0:00:33","9/slides9-1.png","Two Aspects of Machine Learning",1,
+					"0:01:18","9/slides9-2.png","Today's Focus",1,
+					"0:01:56","9/slides9-3.png","Supervised Classification",1,
+					"0:02:04","9/slides9-4.png","PAC/SLT Models for Supervised Learning",1,
+					"0:03:21","9/slides9-5.png","",0,
+					"0:07:41","9/slides9-6.png","",0,
+					"0:10:21","9/slides9-7.png","Sample COmplexity for Supervised Learning",1,
+					"0:12:55","9/slides9-8.png","",0,
+					"0:13:41","9/slides9-9.png","",0,
+					"0:17:26","9/slides9-11.png","Infinite Hypothesis Spaces",1,
+					"0:23:00","9/slides9-12.png","Sample Complexity",2,
+					"0:23:05","9/slides9-9.png","",0,
+					"0:23:52","9/slides9-12.png","",0,
+					"0:27:32","9/slides9-13.png","Effective Number of Hypotheses",2,
+					"0:28:32","9/slides9-14.png","",0,
+					"0:32:06","9/slides9-15.png","",0,
+					"0:35:28","9/slides9-16.png","",0,
+					"0:35:45","9/slides9-17.png","Sample Complexity Revisited",2,
+					"0:42:00","9/slides9-18.png","",0,
+					"0:44:20","9/slides9-19.png","",0,
+					"0:44:26","9/slides9-20.png","Shattering, VC-Dimension",2,
+					"0:49:08","9/slides9-21.png","",0,
+					"0:50:29","9/slides9-22.png","Example: Thresholds",0,
+					"0:55:40","9/slides9-23.png","Example: Intervals",0,
+					"0:58:48","9/slides9-24.png","Example: Linear Classifiers",0,
+					"1:00:15","9/slides9-25.png","",0,
+					"1:04:21","9/slides9-26.png","Sauer's Lemma",2,
+					"1:06:18","9/slides9-27.png","Sample Complexity",2,
+					"1:09:53","9/slides9-26.png","",0,
+					"1:10:11","9/slides9-28.png","",0,
+					"1:12:01","9/slides9-29.png","Tightness of Bound",2,
+					"1:14:32","9/slides9-30.png","Lower Bound Proof",2,
+					"1:15:13","9/slides9-31.png","Agnostic Case",1,
+					"1:15:23","9/slides9-32.png","Uniform Convergence",2,
+					"1:15:44","9/slides9-33.png","Sample Complexity",2,
+					"1:16:09","9/slides9-35.png","",0,
+					"1:16:27","9/slides9-36.png","What you should know",1
+				]
+			, "ytapiplayer"
+			, "slidedisplay"
+			, "index"
+			);
+		}
+	</script>
+  </head>
+  <body>
+	<table id="playerslidescombo" border=1>
+	<tr><td>
+	<div id="ytapiplayer" style="float:left;">
+		You need HTML5 and JavaScript enabled to view this video.
+	</div>
+	</td><td></td><td>
+	<div id="slidedisplay" style="float:left;width:640px;height:480px" />
+	</td></tr>
+	<tr>
+	<td colspan=3>
+	<div id="index" style="max-height:200px;overflow:auto" />
+	</td></tr>
+	</table>
+
+	<script type="text/javascript">
+		startPlayer();	
+	</script>
+  </body>
+</html>

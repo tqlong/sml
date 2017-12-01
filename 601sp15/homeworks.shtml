@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ 
+  <link rel="SHORTCUT ICON" href="ml-logo.gif">
+  <link rel="stylesheet" href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/style.css">
+
+  <title>
+Machine Learning 10-601 Spring 2015
+  </title>
+</head>
+   
+<body link="#993333">
+
+<table align="center" border="0" cellpadding="8" width="70%">  
+  <tbody>  
+    <tr>
+ 
+      <td width="80%">  
+      <h1 align="left"> <br>
+      <b> Machine Learning</b> </h1>
+ 
+      <h2> 10-601, Spring 2015 </h2>
+      <h2> Carnegie Mellon University </h2>
+ 
+      <h2><a href="http://www.cs.cmu.edu/~tom">Tom Mitchell</a> and <a href="http://www.cs.cmu.edu/~ninamf/"> Maria-Florina Balcan </a> <br>
+ </h2>
+  
+      </td>
+ 
+      <td align="right" width="20%"><img src="ml-logo.gif" height="150" width="150">
+      </td>
+ 
+    </tr>
+  
+    <tr>
+ 
+      <td colspan="2" align="justify" valign="top"> <br>
+ 
+      <br><table width="100%">
+        <tbody>
+          <tr>
+            <td colspan="2" bgcolor="#993333"><img src="transparent.gif" border="0" height="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="justify">
+            <table width="100%">
+              <tbody>
+                <tr>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="index.html"> <b>Home</b> </a> 
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="ppl.shtml"> <b>People </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="lectures.shtml"> <b> Lectures </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="recitations.shtml"> <b>Recitations </b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="homeworks.shtml"> <b>Homeworks </b></a>
+                  </p>
+                  </td>
+				  <td width="12%">
+                  <p class="headlink">
+                  <a href="projects.html"> <b>Project</b></a>
+                  </p>
+                  </td>
+                  <td width="12%">
+                  <p class="headlink">
+                  <a href="prev.shtml"> <b> Previous material </b></a>
+                  </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" bgcolor="#993333"><img src="http://www.cs.cmu.edu/~ninamf/courses/601sp15/Machine&#32;Learning&#32;10-601&#32;Fall&#32;2012_files/transparent.gif" border="0" height="1"></td>
+          </tr>
+	  
+		  <tr>
+            <td valign="top" width="22%">
+			</td>
+            
+            <td align="justify"> <br>
+          
+			</td>
+		  </tr>
+
+
+<tr><td>
+<a href="hw/homework1.pdf">Homework 1</a> (<a href="hw/homework1_sol.pdf">Solution</a>) <br>
+<a href="hw/homework2.pdf">Homework 2</a> (<a href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/hw/homework2.tex">tex</a>, <a href="hw/homework2_sol.pdf">Solution</a>)<br>
+<a href="hw/homework3.pdf">Homework 3</a> (<a href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/hw/homework3.tex">tex</a>, <a href="hw/homework3_sol.pdf">Solution</a>, <a href="hw/hw3_code.tar">Code</a>)<br>
+<a href="hw/homework4.pdf">Homework 4</a> (<a href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/hw/homework4.tex">tex</a>, <a href="hw/homework4_sol.pdf">Solution</a>, <a href="hw/homework4_code.zip">Code</a>)<br>
+<a href="hw/homework5.pdf">Homework 5</a> (<a href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/hw/homework5.tex">tex</a>, <a href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/hw/homework5_sol.pdf">Solution</a>)<br>
+<a href="hw/homework6.pdf">Homework 6</a> (<a href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/hw/homework6.tex">tex</a>, <a href="hw/homework6_sol.pdf">Solution</a>)<br>
+<a href="hw/homework7.pdf">Homework 7</a> (<a href="hw/hw7_tex.zip">tex</a>, <a href="hw/homework7_sol.pdf">Solution</a>)<br>
+</td></tr>
+
+		  <tr>
+            <td colspan="2" bgcolor="#993333"><img src="transparent.gif" border="0" height="1"></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>

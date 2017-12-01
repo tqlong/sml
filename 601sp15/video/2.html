@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<script type="text/javascript" src="http://www.cs.cmu.edu/~ninamf/courses/601sp15/video/utube_slides.js"></script>
+	<script type="text/javascript">
+		function startPlayer() {
+			//Optional: set index style
+			setIndexStyle(
+				"background-color: #222222; color: #FFFF00",	//active segment
+				"background-color: #EEEEEE; color: #000000"	//inactive segments
+			);
+
+			//Optional: Set youtube player dimensions (default is 640x480)
+			setVideoDims(640, 480);
+
+			initYoutubeAndSlides("xXEjtF_hs-4",
+				[
+					"0:00:00","2/slides2-0.png","",1,
+					"0:00:11","2/slides2-1.png","Function Approximation",1,
+					"0:01:43","2/slides2-2.png","Decision Tree Learning as Function Approximation",2,
+					"0:03:11","2/slides2-4.png","Search for best hypothesis",2,
+					"0:05:58","2/slides2-5.png","The big picture",2,
+					"0:24:35","2/slides2-6.png","Occam's razor",2,
+					"0:27:32","2/slides2-9.png","Overfitting in Decision Trees",1,
+					"0:31:34","2/slides2-10.png","Overfitting",2,
+					"0:32:07","2/slides2-11.png","Overfitting",0,
+					"0:32:47","2/slides2-12.png","Effect of Overfitting",2,
+					"0:37:19","2/slides2-14.png","Reduced-Error Pruning",2,
+					"0:41:57","2/slides2-16.png","Formal Guarantees",0,
+					"0:41:59","2/slides2-16.png","Formal Guarantees",1,
+					"0:42:21","2/slides2-17.png","Supervised Learning or Function Approximation",2,
+					"0:43:25","2/slides2-18.png","",0,
+					"0:44:40","2/slides2-19.png","Two Core Aspects of Machine Learning",2,
+					"0:48:42","2/slides2-20.png","Top Down Decision Tree Algorithms",2,
+					"0:50:35","2/slides2-21.png","Entropy as a Better Splitting Measure",2,
+					"0:51:05","2/slides2-22.png","",0,
+					"0:51:23","2/slides2-21.png","REVISIT",0,
+					"0:51:30","2/slides2-23.png","",0,
+					"0:52:41","2/slides2-24.png","",0,
+					"0:53:30","2/slides2-25.png","Two Core Aspects of Machine Learning (Revisited)",2,
+					"0:54:27","2/slides2-24.png","QUESTION",0,
+					"0:55:41","2/slides2-25.png","REVISIT",0,
+					"0:57:34","2/slides2-26.png","What you should know",1,
+					"0:59:54","2/slides2-38.png","",0,
+					"1:00:48","2/slides2-38.png","Probability Overview",1,
+					"1:00:57","2/slides2-39.png","Random Variables",2,
+					"1:03:08","2/slides2-40.png","A little formalism",0,
+					"1:03:58","2/slides2-41.png","Visualizing A",0,
+					"1:04:36","2/slides2-42.png","The Axioms of Probability",2,
+					"1:06:01","2/slides2-43.png","Elementary Probability in Pictures",1,
+					"1:06:28","2/slides2-44.png","",0,
+					"1:07:41","2/slides2-45.png","",0,
+					"1:08:09","2/slides2-46.png","Conditional Probability",0,
+					"1:09:25","2/slides2-47.png","",0,
+					"1:11:04","2/slides2-48.png","Bayes Rule",0,
+					"1:12:42","2/slides2-49.png","",0,
+					"1:12:50","2/slides2-51.png","",0
+				]
+			, "ytapiplayer"
+			, "slidedisplay"
+			, "index"
+			);
+		}
+	</script>
+  </head>
+  <body>
+	<table id="playerslidescombo" border=1>
+	<tr><td>
+	<div id="ytapiplayer" style="float:left;">
+		You need HTML5 and JavaScript enabled to view this video.
+	</div>
+	</td><td></td><td>
+	<div id="slidedisplay" style="float:left;width:640px;height:480px" />
+	</td></tr>
+	<tr>
+	<td colspan=3>
+	<div id="index" style="max-height:200px;overflow:auto" />
+	</td></tr>
+	</table>
+
+	<script type="text/javascript">
+		startPlayer();	
+	</script>
+  </body>
+</html>

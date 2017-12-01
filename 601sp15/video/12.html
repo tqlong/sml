@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<script type="text/javascript" src="http://www.cs.cmu.edu/~ninamf/courses/601sp15/video/utube_slides.js"></script>
+	<script type="text/javascript">
+		function startPlayer() {
+			//Optional: set index style
+			setIndexStyle(
+				"background-color: #222222; color: #FFFF00",	//active segment
+				"background-color: #EEEEEE; color: #000000"	//inactive segments
+			);
+
+			//Optional: Set youtube player dimensions (default is 640x480)
+			setVideoDims(640, 480);
+
+			initYoutubeAndSlides("-s0Kyb_DYGo",
+				[
+					"0:00:00","","Exam Announcement",1,
+					"0:02:53","11/slides11-22.png","Inference in Bayes Nets",1,
+					"0:04:10","12/slides12-5.png","",0,
+					"0:10:44","12/slides12-6.png","Learning in Bayes Nets",1,
+					"0:13:37","12/slides12-7.png","Algorithm for Constructing Bayes Nets",1,
+					"0:14:28","12/slides12-8.png","Example: Design form causal relationships",2,
+					"0:17:22","12/slides12-9.png","Example: No conditional independencies",2,
+					"0:22:34","12/slides12-10.png","Example: Naive Bayes",0,
+					"0:35:03","12/slides12-11.png","Mixing Discrete and Real Values",1,
+					"0:38:18","12/slides12-12.png","Bayes Network for Hidden Markov Models",1,
+					"0:40:26","12/slides12-13.png","Conditional Independence, Revisited",1,
+					"0:42:13","12/slides12-14.png","Easy Network 1: Head to Tail",2,
+					"0:51:24","12/slides12-15.png","Easy Network 2: Tail to Tail",2,
+					"0:54:08","12/slides12-16.png","Easy Network 2: Head to Head",2,
+					"0:59:47","12/slides12-18.png","D-Separation",1,
+					"1:02:33","12/slides12-19.png","Examples",2,
+					"1:04:35","12/slides12-20.png","",0,
+					"1:10:43","12/slides12-22.png","Markov Blanket",1
+				]
+			, "ytapiplayer"
+			, "slidedisplay"
+			, "index"
+			);
+		}
+	</script>
+  </head>
+  <body>
+	<table id="playerslidescombo" border=1>
+	<tr><td>
+	<div id="ytapiplayer" style="float:left;">
+		You need HTML5 and JavaScript enabled to view this video.
+	</div>
+	</td><td></td><td>
+	<div id="slidedisplay" style="float:left;width:640px;height:480px" />
+	</td></tr>
+	<tr>
+	<td colspan=3>
+	<div id="index" style="max-height:200px;overflow:auto" />
+	</td></tr>
+	</table>
+
+	<script type="text/javascript">
+		startPlayer();	
+	</script>
+  </body>
+</html>
